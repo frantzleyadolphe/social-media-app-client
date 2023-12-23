@@ -7,10 +7,9 @@ import LoginPage from "screens/login";
 const RouteNavigation = () => {
   return (
     <BrowserRouter>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/profile" element={<ProfilePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/profile/:userId" element={<ProfilePage />} />
       </Routes>
