@@ -1,5 +1,5 @@
 import RouteNavigation from "routes";
-import "./App.css";
+import "./index.css";
 
 function App() {
   return (
