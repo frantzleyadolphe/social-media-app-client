@@ -1,5 +1,11 @@
+import NavBar from "screens/navbar";
+
 const HomePage = () => {
-  return <>HomePage</>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 };
 
 export default HomePage;
